@@ -124,6 +124,8 @@ main.dart
       }
     }
 
+### onGenerateRoute
+
 We can also use an onGenerateRoute setup for routing
 
 route_generator.dart
@@ -180,6 +182,8 @@ main.dart
         onGenerateRoute: RouteGenerator.routeGenerator,
       );
     }
+
+### Sending argument using pushNamed
 
 We can also send arguments to a route using pushNamed
 
